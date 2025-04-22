@@ -1,0 +1,72 @@
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+header, footer {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.box {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Button styles */
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#changeTextBtn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#changeStyleBtn {
+  background-color: #2196F3;
+  color: white;
+}
+
+#addElementBtn {
+  background-color: #9C27B0;
+  color: white;
+}
+
+#removeElementBtn {
+  background-color: #f44336;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Style class for JS manipulation */
+.highlight {
+  background-color: #ffeb3b;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+/* Style for dynamically added elements */
+.new-element {
+  background-color: #e1f5fe;
+  padding: 10px;
+  margin: 10px 0;
+  border-left: 4px solid #03a9f4;
+  border-radius: 2px;
+}
